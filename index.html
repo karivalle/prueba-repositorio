@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title class="titulo">Clase Básica</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+    </style>
+
+</head>
+
+<body class="fondo">
+
+    <nav class="menu">
+      <img src="images/logo001.png" class="logo" />
+
+        <a href="pages/noticias.html">Noticias</a>
+
+        <a href="pages/merchandising.html">Merchandising</a>
+
+        <a href="pages/prensa.html">Prensa</a>
+
+        <a href="#formulario">Formulario</a>
+
+    </nav>
+
+    <div class="espacio">
+      <br>
+    </div>
+
+   <div class="pruebaAnim">
+    <h1>Clase Básica</h1>
+  </div>
+
+    <div class="section1">
+
+      <img id="fotoprincipal" src="images/leokari.jpeg">
+
+        <div id="descripcion1">
+        <p><strong>¿WTF ES CLASE BÁSICA?</strong></p>
+        <p>CLASE BÁSICA ES UN MEDIO DIGITAL, INDEPENDIENTE Y MULTIPLATAFORMA DE NEOFARÁNDULA.
+        LO HACEMOS POR DIVERSIÓN DESDE 2018</p>
+        </div>
+    </div>
+
+    <div class="espacio">
+      <br>
+    </div>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/leoykarigrabando.png" alt="Grabando" width="550" height="250">
+      <div class="carousel-caption">
+        <h3>Podcast</h3>
+        <p>Nos encanta grabar</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="images/leoykariredbull.png" alt="RedBull" width="550" height="250">
+      <div class="carousel-caption">
+        <h3>Kari&Leo</h3>
+        <p>Contenido pop</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="images/leoykaristandup.png" alt="Standup" width="550" height="250">
+      <div class="carousel-caption">
+        <h3>Eventos</h3>
+        <p>A veces nos presentamos en vivo</p>
+      </div> 
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+  
+  <div class="formulario" id="formulario">
+
+    <h2>¿Quieres recibir información a tu correo?</h2>
+
+    <p class="italic">Nunca te pierdas las noticias más importantes y seas la envidia de tus amigues</p>
+
+    <h3>Déjanos tus datos y te contactaremos</h3>
+
+  
+
+
+    <form action="" class="">
+
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" placeholder="Nombre" /><br>
+
+      <label for="apellido">Apellido:</label>
+      <input type="text" name="apellido" placeholder="Apellido" /><br>
+
+      <label for="email">E-mail:</label>
+      <input type="email" name="email" placeholder="Email" /><br>
+
+      <label for="telefono">Nombre:</label>
+      <input type="tel" name="telefono" placeholder="Teléfono" /><br>
+
+      <p>Cuéntanos algo más sobre ti <span class="italic">(Opcional)</span></p>
+      <textarea rows="2" cols="21"></textarea>
+
+      <div>
+        <label for="metodo">Método de contacto:</label>
+        <select name="metodo">
+        <option value="whatsapp">Whatsapp</option>
+        <option value="mail">Mail</option>
+        <option value="tel">Teléfono</option>
+      </select>
+      </div>
+
+      <div>Acepto que me contacten
+      <input type="checkbox" name="acepta" value="1" />
+      </div>
+
+      <input type="reset" value="Limpiar formulario" />
+      <input type="submit" value="Regístrate" />
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </form>
+
+
+  </div>
+      <br>
+
+      <div id="tabla">
+      <table>
+        <tr>
+          <!-- inicio de fila-->
+          <th>Producto</th>
+          <th>Precio</th>
+          <th>Modelos disponibles</th>
+        </tr><!-- cierre de fila -->
+
+        <tr>
+          <!-- inicio de otra fila-->
+          <td>Poleras CB</td>
+          <td>$15.000</td>
+          <td>
+            <ol>
+              <li>Kim</li>
+              <li>Básica</li>
+            </ol>
+          </td>
+        </tr><!-- cierre de la segunda fila -->
+
+        <tr>
+          <!-- inicio de otra fila-->
+          <td>Bolsos CB</td>
+          <td>$13.000</td>
+          <td>
+            <ol>
+              <li>Kim</li>
+              <li>Básica</li>
+            </ol>
+          </td>
+        </tr><!-- cierre de la tercera fila -->
+      </table>
+    </div>
+      <br>
+
+
+     
+     
+
+      <footer>
+
+        <section class="grid">
+          <div><img src="images/logo002.png" class="logo2"></div>
+          <div>
+            <h4>Mobile app</h4>
+
+            <ul>
+  
+              <li>Features</li>
+  
+              <li>Live share</li>
+  
+              <li>Video record</li>
+  
+            </ul></div>
+          <div><h4>Community</h4>
+
+            <ul>
+  
+              <li>Featured artists</li>
+  
+              <li>The Portal</li>
+  
+              <li>Live events</li>
+  
+            </ul></div>
+          <div><h4>Company</h4>
+
+            <ul>
+  
+              <li>About us</li>
+  
+              <li>Contact us</li>
+  
+              <li>History</li>
+  
+            </ul></div>
+       </section>
+          
+
+         
+
+          
+<br>
+          
+
+          <hr>
+
+          <p>Todos los derechos reservados Clase Básica 2021</p>
+
+          <h4>Síguenos en nuestras redes</h4>
+
+          <a href="">Instagram</a>
+
+          <a href="">Spotify</a>
+
+          <a href="">YouTube</a>
+
+          <a href="">Tik Tok</a>
+
+      </footer>
+     
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

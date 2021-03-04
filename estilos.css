@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .espacio{
+    height: 120px;
+    color: white;
+    display: block;
+  }
+
+  .logo {
+    width: 90px;
+    height: 90px;
+    margin: 10px 0 0 -50px;
+  }
+
+  .logo2 {
+    width: 90px;
+    height: 90px;
+    margin: 0 10px 0 100px;
+  }
+
+  .menu {
+    background-color: black;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 5;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+
+
+  .pruebaAnim {
+    font-size: 100px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 280px;
+    animation: textoAnim 15s infinite;
+  }
+
+ h1{
+    display: inline-block;
+    font-weight: bolder;
+  }
+
+  @keyframes textoAnim {
+    0%   {transform: translate(0);}
+    100% {transform: translate(1300%);}
+  }
+ 
+
+ul {
+  list-style: none;
+  text-align: left;
+  list-style-type: circle;
+  margin: 35px;
+}
+
+div table{
+  background-color: black;
+  width: 100%;
+  padding: 30px;
+}
+table {
+    background: black;
+    color: white;
+    padding: 500px;
+}
+
+
+.section1 {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+#fotoprincipal{
+  display: inline;
+  width: fit-content;
+}
+
+#descripcion1{
+  display: inline;
+  height: 30px;
+  width: auto;
+  font-display: inline;
+  position: absolute;
+  margin: 90px 90px 500px 50px;
+  padding: 30px;
+}
+
+.formulario {
+  background-color: white;
+  object-position: center;
+  margin: 70px;
+  padding: 30px;
+  background-image: linear-gradient(to left, rgb(255, 27, 225) , rgb(67, 208, 233));
+}
+
+.italic {
+  font-style: italic;
+}
+
+footer{
+  margin: 20px;
+  display: inline;
+}
+
+.grid {
+  display: grid;  
+  grid-template-columns: 4fr 2fr 2fr 2fr; 
+}
+
+.fondo {
+  background-image: linear-gradient(to left, red , yellow);
+ }
+ 
+@media (max-width:700px) and (min-width: 400px) {
+  .fondo {
+    background-image: linear-gradient(to left, blue , green);
+  }
+}
